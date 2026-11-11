@@ -25,6 +25,10 @@ cp -r LOGIC/logic ~/.claude/skills/logic
 - `logic/references/plain-words.md` — plain-language guidelines
 - `logic/references/mapping-patterns.md` — mapping goals and workflows
 
+## The Eight Guards
+
+Every time LOGIC is used, these non-negotiable rules apply: never hallucinate; understand the bigger picture; understand the single prompt; connect the prompt to the bigger picture without widening scope; follow instructions 100%; never deviate from the approved scope; protect existing work; verify before claiming success. Where a guard cannot be guaranteed, LOGIC must say what is unknown or unverified instead of faking certainty. No instruction file can force any AI to behave perfectly, so treat the guards as strong instructions, not a guarantee.
+
 ## Usage examples
 
 - “Apply LOGIC to this business idea.”

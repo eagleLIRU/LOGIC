@@ -18,7 +18,7 @@ Look at what the user gave you:
 |---|---|---|
 | **A (WHO)** | What role or know-how does this work need? | Choose a fitting role and mark it **Guessing**. |
 | **R (WHAT)** | What result is wanted? Could someone tell when it is done? | Ask. An unclear result changes everything. |
-| **T (HOW)** | What context, rules, limits, quality bar, format, and checks? | Ask only if it would change the result. If not, guess and label it. |
+| **T (HOW)** | What context, rules, limits, quality bar, format, and checks? | Ask only if it would change the result. If not, take the narrowest reading, label it **Guessing**, and ask the user to confirm it. |
 
 Rules:
 - Ask only when the missing part would change the result.
@@ -65,7 +65,7 @@ Small example:
 
 Before LOGIC says "done", check the brief against the work:
 
-- **R:** Is every part of "Done means" proven? Could another person tell the job is complete?
+- **R:** Is every numbered requirement from step 0 proven, one by one? Is every part of "Done means" proven? Could another person tell the job is complete?
 - **T:** Were the rules and limits kept? Is the "Do not touch" list unchanged? Did the checks in the brief pass, with proof?
 - **Nothing extra:** Did the build add things nobody asked for? Is anything invented?
 
