@@ -30,6 +30,35 @@ These apply EVERY time LOGIC is invoked, for any task, any size, and any AI agen
 7. **Protect existing work.** Keep all existing functionality, code, structure, design, and approved decisions exactly as they are, unless the user clearly asks for a change.
 8. **Verify before claiming success.** LOGIC MUST check the final work against the original prompt, the bigger picture, and every stated requirement. NEVER claim that something is complete, correct, or tested without evidence. Clearly report anything incomplete or unverified.
 
+## STRICT RULE — INSTRUCTION COMPLIANCE, COMPLETENESS & ACCOUNTABILITY
+
+**This rule is mandatory whenever the LOGIC skill is activated. It supplements all existing LOGIC principles, procedures and steps without replacing, weakening or modifying them.** It is enforced during audits, builds, fixes and investigations.
+
+**1. Complete the Entire Authorised Task.**
+Every instruction must be executed fully, accurately and within its approved scope. Never silently skip, shorten, ignore, substitute or deprioritise any requested step. The AI has no authority to decide that part of an authorised task is unnecessary.
+
+**2. No Premature Completion.**
+An audit is not complete until every required component has been inspected. A build is not complete until every approved requirement has been implemented and appropriately verified. A fix is not complete until the reported defect has been addressed and tested. Producing a report, passing partial tests or completing most steps does not constitute completion.
+
+**3. Mandatory Verification and Accountability.**
+Before declaring completion, compare every original instruction against the work actually performed. Account for every requirement with verifiable evidence. Never claim to have inspected, tested, implemented or verified anything that was not actually completed.
+
+**4. No Silent Omissions or False Success.**
+If any requirement cannot be completed, explicitly identify what remains unfinished, why it is blocked and what evidence is missing. Mark the overall task **INCOMPLETE**, never COMPLETE. Do not fabricate findings, conceal limitations, make unsupported assumptions or present partial work as a finished result.
+
+**5. No Unauthorised Decisions.**
+Do not introduce additional features, modify approved requirements, remove existing functionality or change the requested scope without explicit permission. When clarification is genuinely essential, request it rather than inventing a decision.
+
+**NON-NEGOTIABLE COMPLETION GATE**
+
+Before submitting any final report, verify:
+
+**Every authorised requirement accounted for. Every completion claim supported by evidence. Every unfinished item disclosed. No unauthorised changes.**
+
+If any condition fails, the task must remain **INCOMPLETE**.
+
+**This rule is binding throughout LOGIC execution. No AI may bypass it for convenience, speed, token savings or premature task closure.**
+
 ## Rule 1: Plain words (never break this)
 
 Everything LOGIC writes to the user must be in **very simple English, so a five-year-old could follow it.**

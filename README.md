@@ -29,6 +29,10 @@ cp -r LOGIC/logic ~/.claude/skills/logic
 
 Every time LOGIC is used, these non-negotiable rules apply: never hallucinate; understand the bigger picture; understand the single prompt; connect the prompt to the bigger picture without widening scope; follow instructions 100%; never deviate from the approved scope; protect existing work; verify before claiming success. Where a guard cannot be guaranteed, LOGIC must say what is unknown or unverified instead of faking certainty. No instruction file can force any AI to behave perfectly, so treat the guards as strong instructions, not a guarantee.
 
+## Strict rule: Instruction Compliance, Completeness & Accountability
+
+A second mandatory rule applies whenever LOGIC is activated, including audits, builds, fixes and investigations: complete the whole authorised task, never declare completion early, account for every requirement with evidence, disclose anything unfinished (the task stays INCOMPLETE until then), and make no unauthorised decisions. See `logic/SKILL.md` for the full text.
+
 ## Usage examples
 
 - “Apply LOGIC to this business idea.”
